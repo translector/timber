@@ -1,0 +1,24 @@
+description: 'View information about fields.'
+help: 'View information about fields.'
+options:
+    detailed: 'Extended output with machine names and descriptions'
+    entity: 'Restrict to a specific fieldabe entity type, for example: node, comment, taxonomy_term, shortcut, block_content, contact_message'
+    bundle: 'Restrict to a specific bundle type, for example: article'
+messages:
+    fields-none: 'No fields found'
+    entity-type: 'Fieldable entity type'
+    bundle-type: 'Bundle type'
+    not-found: 'not found'
+    in-entity-type: 'in entity type'
+    in-bundle-type: 'in bundle type'
+table:
+    header-name: 'Field label'
+    header-type: 'Field type'
+    header-desc: 'Field description'
+    header-usage: 'Also used in'
+
+# Information added by Drupal.org packaging script on 2018-05-11
+version: '8.x-5.x-dev'
+core: '8.x'
+project: 'timber'
+datestamp: 1526042904
